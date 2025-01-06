@@ -28,9 +28,6 @@ foreach ($data as [$student, $subject, $score]) {
 ksort($newData);
 ksort($subjects);
 
-dump($newData);
-dump($subjects);
-
 // Вывод
 echo "<table style='border:1px solid black; text-align:center;'>";
 echo "<tr>";
